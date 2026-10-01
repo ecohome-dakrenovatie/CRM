@@ -1,0 +1,6 @@
+# De website staat in de map website/ (statische bestanden, geen build nodig).
+# Het CRM in de hoofdmap draait op Vercel en heeft hier niets mee te maken.
+[build]
+  base = "website"
+  publish = "."
+  command = ""
